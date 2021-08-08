@@ -4,12 +4,12 @@ import Image from "next/image";
 function InfoCard({img, location, title, description, star, price, total }) {
     return (
         <div className="flex py-7 px-2 border-b cursor-pointer hover:shadow-lg hover:opacity-90 transition duration-200 ease-out first:border-t">
-            <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0">
+            <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0 rounded-2xl">
                 <Image
                     src={img}
                     layout = "fill" 
                     objectFit="cover"
-                    className="rounded-2xl"
+                    className="rounded-2xl hover:scale-125 transition duration-500 ease-out"
                 />
             </div>
 
