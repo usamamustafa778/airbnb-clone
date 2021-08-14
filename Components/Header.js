@@ -71,7 +71,7 @@ function Header({placeholder}) {
         <header className="sticky shadow-md top-0 z-50 grid items-center grid-cols-3 w-screen py-5 md:px-10 bg-white h-24">  
         {/* // <header className={`fixed top-0 z-40 grid w-screen grid-cols-1 p-5 ${handleShow ? "bg-white shadow-md opacity-100" : ""} sm:grid-cols-3 md:px-10 `}>  */}
             {/* Logo */}
-            <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto mt-1 ml-3">
+            <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
                 <Image
                     src = "https://links.papareact.com/qd3"
                     layout = "fill"

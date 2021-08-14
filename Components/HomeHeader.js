@@ -18,10 +18,10 @@ function Header() {
     useEffect(() => {
         const toggleVisible = () => {
             const scrolled = document.documentElement.scrollTop;
-            if (scrolled > 300){
+            if (scrolled > 80){
               setVisible(true)
             } 
-            else if (scrolled <= 300){
+            else if (scrolled <= 80){
               setVisible(false)
             }
         }; 
